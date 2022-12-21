@@ -1,4 +1,4 @@
-from colorama import Fore,init
+
 import requests
 import subprocess
 import socket
@@ -14,6 +14,6 @@ http = requests.get("https://api.ipify.org/").text
 
 
 
-print(Fore.GREEN+"[+] "+Fore.GREEN+"Your Local IP : "+Fore.GREEN+ip_local)
-print(Fore.RED+"[+] "+Fore.RED+"your Public IP : "+Fore.RED+http)
+print("[+] "+"Your Local IP : "+ip_local)
+print("[+] ""your Public IP : "+http)
 input()
